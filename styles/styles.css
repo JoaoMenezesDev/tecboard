@@ -1,0 +1,135 @@
+/* Importação de fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Versão Desktop */
+
+body {
+    background-color: #0E1014;
+    height: auto;
+}
+header img {
+    margin: 75px 0 0 360px
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #9747FF;
+    margin: 40px 0 24px 0;
+
+    /* 
+    font-family: serif; mais acabamento e detalhes
+    font-family: sans-serif; menos acabemento em relação a serif, mais reta e sóbria, sendo a mais utilizada para projetos
+    font-family: monospace; mais usada para escrita de código e/ou terminal
+    font-family: cursive; letras cursivas, ilustrando a escrita a mão, uso bem específico
+    font-family: fantasy; usada para títulos em situações específicas, parece letra de papiro      
+    */
+}
+
+h1 span, p, a {
+    color:#FFFFFF;
+}
+
+span {
+    font-weight: 400;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    width: 792px;
+}
+
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #9747FF; 
+    border-radius: 36px;
+    font-size: 24px;
+    width: 340px;
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    margin: 40px auto;
+}
+
+a:hover {
+    background-color: #8233E8; 
+}
+
+@media(max-width: 768px){
+
+header img {
+    margin: 65px 0 0 60px
+}
+
+h1{
+
+    margin: 62px 0 24px 0;
+    
+}
+
+p {
+    width: 648px;
+}
+
+section img {
+    width: 659px 
+}
+
+}
+
+@media(max-width: 375px){
+
+
+
+header img {
+    margin: 32px 0 0 16px
+}
+
+h1{
+    font-size: 40px;
+    width: 341px;
+    margin: 60px 0 24px 0;
+    
+}
+
+p {
+    font-size: 20px;
+    width: 341px;
+}
+
+a {
+    font-size: 20px;
+    width: 251px
+}
+
+section img {
+    width: 341px 
+}
+
+
+}
